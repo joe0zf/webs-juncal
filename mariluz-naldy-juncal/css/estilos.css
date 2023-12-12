@@ -1,0 +1,183 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: palegreen;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+nav {
+    
+    width: 50%;
+    font-family: 'Calibri';
+    
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(4, 27, 27);
+}
+
+nav>ul>li:hover{
+    background-color: aqua;
+    border-bottom-color: black;
+    border-bottom: 2px;
+    border-block-start: dashed;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-tarjeta{
+    background-color: rgb(181, 250, 181);
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.contenido-tarjeta{
+    width:  100%;
+    height: 300px;
+    display: flex;
+}
+.imagen-tarjeta{
+    width: 25%;
+    height: 300px;
+}
+.parrafo-tarjeta{
+    padding: 15px;
+    width: 75%;
+}
+.imagen-tarjeta img{
+    width: 100%;
+    height: 100%;
+}
+.contenedor-videos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenedor-videos video{
+    width: 400px;
+    height: 400px;
+    flex: center;
+}
+
+/*PORTADA*/
+.video-portada{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.video-portada video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.video-portada h1{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: aliceblue;
+}
+.contenedor-principal{
+    display: flex;
+}
+/*MENU LATERAL*/
+.menu-lateral{
+    width: 15%;
+    height: 100vh;
+    background-color: palegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+}
+
+.main-costumbres{
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.musica-contenedor-principal{
+    align-items: flex-end;
+}
+.menu-lateral ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    height: 100%;
+    justify-content:space-around ;
+}
+.video{
+    width: 50px;
+    height: 50px;
+}
+.main-musica{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+}
+.fondo-musica{
+    background-color: rgb(206, 155, 255);
+    border:solid 2px blue;
+
+
+}
+.menu-lateral ul li{
+    border: solid 2px black;
+}
+.main-costumbres p{
+    width: 80%;
+    text-align:center;
+
+}
+.contenedor-tradicional{
+    width: 60%;
+    text-align: center;
+
+}
+.zonas-atractivas{
+    margin-top:80px ;
+}
+.centrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-costumbres{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+}

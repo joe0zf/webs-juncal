@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: aqua;
+}
+header h1{
+    width: 75%;
+    text-align: center;
+}
+header .montana{
+    width: 25%;
+    height: 80px;
+    background-color: black;
+}
+.montana img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contenedor-principal{
+    display:flex;
+    justify-content: space-between;
+}
+.menu-lateral{
+    width: 25%;
+    height: 90vh;
+    background-color:rgb(6, 251, 251);
+    font-family: 'Arial Black';
+}
+.menu-lateral ul{
+    padding: 0px;
+}
+.menu-lateral ul li{
+    list-style: none;
+    padding: 5px;
+}
+.menu-lateral ul li a{
+    text-decoration: none;
+    color: rgb(8, 39, 39);
+    padding: 15px;
+}
+main{
+    width: 75%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+
+}
+.tarjeta-sin-imagen{
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    margin-top: 20px;
+}
+.tarjeta-sin-imagen h2{
+    text-align: center;
+}
+.parrafo-con-imagen{
+    display: flex;
+}
+
+.parrafo-con-video{
+    display: flex;
+    align-items: start;
+}
+
+.parrafo-con-video>iframe{
+    padding-right: 15px;
+}
+
+.texto-con-mayuscula p {
+    text-transform: uppercase;
+    align-items: center;
+}
+.tarjeta-con-imagen{
+    background-color: rgb(169, 244, 219);
+}
+.contenido-texto{
+    padding: 10px;
+}
+.gobernacion-img{
+    display: flex;
+    justify-content: center;
+}
+.img-width{
+    width: 100%;
+}

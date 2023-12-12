@@ -1,0 +1,58 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.menu-principal{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family: 'Bodoni MT Black';
+}
+.menu-principal ul{
+    display: flex;
+}
+.menu-principal ul li{
+    list-style: none;
+    padding: 15px;
+}
+.menu-principal ul li a{
+    text-decoration: none;
+    color: azure;
+}
+.menu-principal ul li:hover{
+    background-color: bisque;
+}
+.menu-principal ul li:hover a{
+    color: black;
+}
+
+.contenedor-img-historia{
+    display: flex;
+}
+
+.contenedor-img-historia img{
+    width: 48%;
+    margin: 15px;
+    border-radius: 1;
+    border: 2px solid black;
+}
+
+.imagen-targeta img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.contenedor-card{
+    display: flex;
+
+}
+.contenedor-imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+p{
+    font-size: 1.7em;
+}

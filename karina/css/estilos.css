@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-color: aquamarine;
+    width: 20%;
+    height:91vh;
+}
+nav ol li{padding: 20px;}
+h1{
+    width: 80%;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    background-color:rgb(13, 229, 245);
+}
+
+.contenedor-principal{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width:80% ;
+    height: 91vh;
+    overflow-y: auto;
+}
+.contenedor-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+.logo{
+    width: 120px;
+}
+.contenedor-imagen-portada{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.contenedor-imagen-portada img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-parrafo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-parrafo p{
+    padding: 5px;
+}
+.costumbres-contenedor{
+    display: flex;
+    margin: 15px;
+}
+
+.costumbres-contenedor-seccion {
+    margin: 15px;
+} 
+
+.content-reverse{
+    flex-direction: row-reverse;
+}
+
+.costumbres-contenedo-section{
+    padding: 15px;
+}
+.main-distrito{
+    display: flex;
+    justify-content: center;
+}
